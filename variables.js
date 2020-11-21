@@ -86,3 +86,18 @@ console.log ("\n el número TT2 es: ",ArrayPI)
 
 num = ArrayPI;
 console.log ("\n el número TT3 es: ",num)*/
+
+//Multilineas 21 de noviembre
+console.log ("Línea 1\n")
+console.log ("Línea 2")
+
+
+var arreglo23 = []
+arreglo23[5] = 8
+console.log (arreglo23.shift())
+arreglo23.push(2)
+arreglo23[0] = 87
+//Unshift agregaun elemento al iniciode l arrat
+arreglo23.unshift(5)
+console.log (arreglo23[0])
+console.log (arreglo23)
