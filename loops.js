@@ -22,7 +22,7 @@ for (var i=0; i<arreglo.length;i++){
 
 var cervezas = 99;
 while (cervezas>0){
-    console.log("Aún hay "+ cervezas + " en la hielera")
+    console.log("Quedan "+ cervezas + " en la hielera")
     cervezas-=1
 
 }
