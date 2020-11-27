@@ -3,20 +3,21 @@
 
 }
 
-console.log("la usma es: ",suma(4,5))
+console.log("la usma es: ",suma(4,5))*/
 
 
-function cuadrado (a){
+/*function cuadrado (a){
     return a*a
 }
 
-console.log ("el cuadrado es: ", cuadrado(4,5))
+console.log ("el cuadrado es: ", cuadrado(4,5))*/
 
-function myName (name){
+
+/*function myName (name){
     return "!Hola " + name + "!"
 }
 
-console.log (myName("Memo"))
+console.log (myName("Memo"))*/
 
 
 
@@ -26,8 +27,24 @@ console.log (myName("Memo"))
 //3. ThreeCompany input: asd output aaassddd
 //4. Palindromo "ana", "oso"
 
-input casa output No es un palindromo
-input oso output si es un palindormo
+//input casa output No es un palindromo
+//input oso output si es un palindormo
+
+console.log ("\n********** Tarea 1, Encontrar números pares e impares rango 0-100 **********\n")
+var arrayPar = []
+var numPares = []
+var numImp = []
+for (j=0; j<101;j++){
+    arrayPar[j]=j
+    if (arrayPar[j] % 2 == 0){
+        numPares.push(arrayPar[j])
+    }else[
+        numImp.push(arrayPar[j])
+    ]
+}
+
+console.log ("Los número Pares son:",numPares)
+console.log ("Los número Impares son:",numImp)
 
 function parImpar(a){
     if (a % 2 == 0){
@@ -38,15 +55,15 @@ function parImpar(a){
     }
 }
 
-console.log(parImpar(4))
-console.log(parImpar(8))
-console.log(parImpar(-3))
-console.log(parImpar(0))//aqui comentario
+console.log("Prueba de función ",parImpar(4))
+//console.log(parImpar(8))
+//console.log(parImpar(-3))
+//console.log(parImpar(0))//aqui comentario
 
 
 //Cambiar el orden de un array
 
-function changeMyMind (elements){
+/*function changeMyMind (elements){
     var longitud = elements.length
     var newArray = []
 
@@ -71,6 +88,7 @@ function three(cadena){
     
     for (var i=0; i<n;i++){
         var letra = cadena
+        output
 
     }
 }
