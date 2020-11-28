@@ -25,7 +25,9 @@ function miEdad(){
 Manager.sayHi = sayHi;
 Manager.miEdad = miEdad;
 Interno.sayHi = sayHi;
+Interno.miEdad = miEdad;
 
 Manager.sayHi() 
 Manager.miEdad()
 Interno.sayHi()
+Interno.miEdad()
